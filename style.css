@@ -1,0 +1,83 @@
+
+/* Accessibility Settings */
+.accessibility {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.accessibility button {
+    padding: 12px 18px;
+    margin: 5px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.accessibility button:hover {
+    background-color: #ddd;
+}
+
+/* 1. Dyslexia Friendly Font */
+.dyslexia {
+    font-family: Arial, sans-serif;
+    letter-spacing: 0.08em;
+    line-height: 1.8;
+    word-spacing: 0.15em;
+}
+
+/* 2. High Contrast Mode */
+.high-contrast {
+    background-color: black !important;
+    color: white !important;
+}
+
+.high-contrast p,
+.high-contrast h1,
+.high-contrast h2,
+.high-contrast h3 {
+    color: white !important;
+}
+
+.high-contrast a {
+    color: yellow !important;
+}
+
+/* 3. Colour Blind Friendly Mode */
+.colour-blind {
+    background-color: #f0f0f0;
+    color: #222;
+}
+
+.colour-blind a {
+    color: #005a9c;
+    text-decoration: underline;
+}
+
+.colour-blind button {
+    background-color: #ffffff;
+    color: #222;
+    border: 2px solid #222;
+}
+
+/* 4. Simple Layout for Autism Accessibility */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    margin-bottom: 15px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+p {
+    max-width: 800px;
+}

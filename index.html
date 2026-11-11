@@ -5,6 +5,9 @@
     <title>Infinite Void - Anime World</title>
 </head>
 
+<link rel="stylesheet" href="style.css">
+
+
 <body>
 
     <header>
@@ -24,20 +27,55 @@
     <main>
         <section>
             <h2>Featured Anime</h2>
-            <p>Discover the latest and greatest anime series and movies.</p>
+            <p style="background-color: black; color: white; font-family: Arial, sans-serif; margin: 0; padding: 0;">Discover the latest and greatest anime series and movies.</p>
         </section>
 
         <section>
             <h2>Popular Manga</h2>
-            <p>Dive into the world of manga with our curated selection.</p>
+            <p style="background-color: black; color: white; font-family: Arial, sans-serif; margin: 0; padding: 0;">Dive into the world of manga with our curated selection.</p>
         </section>
 
         <section>
             <h2>Community</h2>
-            <p>Join our community of anime and manga enthusiasts!</p>
+            <p style="background-color: black; color: white; font-family: Arial, sans-serif; margin: 0; padding: 0;">Join our community of anime and manga enthusiasts!</p>
         </section>
 
         <article>
             <h2>Fun Facts in Anime</h2>
             <p>Did you know that the longest-running anime series is "Sazae-san," which has been airing since 1969? It holds the Guinness World Record for the longest-running animated television series. Another interesting fact is that the anime industry in Japan is worth billions of dollars and has a massive global fanbase. Additionally, many anime series are adapted from manga, light novels, or video games, showcasing the diverse storytelling mediums in Japanese pop culture.</p>
         </article>
+         <!-- Dyslexia Friendly Font -->
+    <button onclick="toggleDyslexia()">
+        Dyslexia Friendly Font
+    </button>
+
+    <!-- High Contrast Mode -->
+    <button onclick="toggleContrast()">
+        High Contrast Mode
+    </button>
+
+    <!-- Colour Blind Friendly Mode -->
+    <button onclick="toggleColourBlind()">
+        Colour Blind Mode
+    </button>
+
+</section>
+  <p>
+        This website includes accessibility features
+        to make it easier for everyone to use.
+    </p>
+</main>
+
+<script>
+    function toggleDyslexia() {
+        document.body.classList.toggle("dyslexia");
+    }
+
+    function toggleContrast() {
+        document.body.classList.toggle("high-contrast");
+    }
+
+    function toggleColourBlind() {
+        document.body.classList.toggle("colour-blind");
+    }
+</script>
